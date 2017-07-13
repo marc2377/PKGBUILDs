@@ -11,7 +11,6 @@ arch=('any')
 pkgdesc='Menu entry for qpaeq - a PulseAudio equalizer frontend'
 license=('BSD')
 depends=('pulseaudio-equalizer' 'python-pyqt4')
-makedepends=
 install="${_execname}.install"
 url=
 source=("$_execname.desktop" "$_execname.svg")
